@@ -1,0 +1,229 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* estilo de imagen principa*/
+.img-principal{
+    width: 35rem;
+}
+
+
+/* estilo titulo principal*/
+.titulopizza{
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+
+/* estilo de hr (lineas)*/
+
+hr{
+    border: 1px solid rgb(197, 197, 197);
+}
+
+/* estilo de logo principal */
+.logo{
+    font-family: 'Lobster', cursive;
+}
+
+/* estilo de carrusel */
+.carrusel{
+    width: 90rem;
+
+}
+
+
+.boton-uno{
+    border-color: rgb(197, 197, 197) ;
+}
+
+.bonton-dos{
+    border-color: rgb(197, 197, 197) ;
+
+}
+
+
+/* estilo de titulo ingrediente */
+.titulo-uno{
+
+    color: black;
+    text-decoration:underline ;
+    font-weight: bold;
+    
+}
+/* estilo de titulo preparacion */
+.titulo-dos{
+
+    color: black;
+    text-decoration:underline ;
+    font-weight: bold;
+
+}
+/* estilo del logo*/
+.logo{
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+/* estilo del .logo-footer*/
+.logo-footer{
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+/* estilo del newlester*/
+.newslester{ 
+    padding: 10rem;
+
+}
+/* estilo del letras newleter*/
+.newslester h2{ 
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+/* estilo del letras newleter*/
+.newslester h3{ 
+    font-size: 2.5rem;
+    font-weight:lighter;
+
+}
+
+
+/* estilo boton del newlester*/
+.btn-new{
+    border-color: rgb(129, 125, 125);
+    margin-top: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+/* estilo logo newlester*/
+
+.logo-new{
+    font-size: 3rem;
+    font-family: 'Lobster', cursive;
+}
+
+/* estilo carouel indicator*/
+.carousel-indicators{
+    top:12rem;
+}
+
+/* estilo para convertir lo indicadores redondos*/
+.carousel-indicators li{
+
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: darkgrey;
+
+}
+
+
+/* estilo de los h1 y h3 del newlester*/
+.newslester ,h2 ,h3{ 
+    font-size: 1rem;
+}
+
+/* media que elimina en carrusel en sm*/
+
+@media screen and (max-width: 540px) {
+    .carrusel-section{       
+        display: none;
+    }
+}
+/* media que elimina en resoluciones  desde 540px hacia arriba */
+
+@media screen and (min-width: 540px) {
+    .linea-titulo{       
+        visibility: hidden;
+}
+}
+
+/* media que centra y cambia el tamaño de la imagen pricipa para moviles*/
+
+@media screen and (max-width: 540px) {
+    .img-principal{       
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20rem;
+}
+}
+/* media que centra el titulo principal*/
+@media screen and (max-width: 540px) {
+    .titulopizza{ 
+        text-align: center; 
+        margin-top: none;   
+
+}
+}
+/* media que elimina en subrayado a los ingrediente en resolucion para mobiles*/
+@media screen and (max-width: 540px) {
+    .titulo-uno{ 
+        text-decoration: none; 
+
+}
+}
+/* media que elimina en subrayado a los ingrediente en resolucion para mobiles*/
+
+@media screen and (max-width: 540px) {
+    .titulo-dos{ 
+        text-decoration: none; 
+        
+
+}
+}
+
+/* elimina titulo principal desde lo 1234px hacia bajo*/
+
+
+@media screen and (max-width: 1234px) {
+    .titulopizza { 
+        margin-top:1rem ;
+        visibility: hidden;
+
+}
+}
+
+/* elimina muestra el titulo  principal desde lo 540px hacia bajo*/
+@media screen and (max-width: 540px) {
+    .titulopizza { 
+          visibility: visible;
+
+}
+}
+
+/* media para regular el tamaño fuente (h2) de newsletter en resolucion para mobil */
+
+@media screen and (max-width: 540px) {
+    .newslester h2{ 
+        font-size: 2rem;
+    
+    }
+}
+
+/* media para regular el tamaño fuente (h3) de newsletter en resolucion para mobil */
+@media screen and (max-width: 540px) {
+    .newslester h3{ 
+        font-size: 1.2rem;
+    
+    }
+}
+
+/* media para regular el tamaño fuente de newsletter en resolucion para mobil */
+@media screen and (max-width: 540px) {
+    .newslester{ 
+        padding: 4rem;
+    
+    }
+}
+/* media que regula el logo de newsletters*/
+
+@media screen and (max-width: 540px) {
+    .logo-new{ 
+        font-size: 1.5rem;
+    
+    }
+}
+
